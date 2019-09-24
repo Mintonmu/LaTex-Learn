@@ -158,7 +158,7 @@
         "*.fls",
         "*.log",
         "*.fdb_latexmk",
-        ".gz",
-        ".synctex.gz"
+        "*.gz",
+        "*.synctex.gz"
     ],
 }
