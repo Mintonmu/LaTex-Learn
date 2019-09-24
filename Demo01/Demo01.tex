@@ -1,4 +1,16 @@
-\documentclass{article}
+%导言区
+\documentclass{article} % book,report,letter(letter中并没有maketitle)
+
+\title{My First TexFile}   %标题
+\author{Minton Mu}          %作者
+\date{\today}               %时间
+% 正文区(文稿区)
+% 一个tex文件有且只有一个document环境
 \begin{document}
- Hello World
+\maketitle
+ Hello World!
+% $$ 代表行内公式 ,$$$$是行外公式
+ Let $f(x)$ be defined by the formula $f(x)=3x^2+x-1$.
+
+ Let $f(x)$ be defined by the formula $$f(x)=3x^2+x-1$$.
 \end{document}
