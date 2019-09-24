@@ -1,16 +1,25 @@
 %导言区
-\documentclass{article} % book,report,letter(letter中并没有maketitle)
+\documentclass{ctexart} % book,report,letter(letter中并没有maketitle)
 
-\title{My First TexFile}   %标题
-\author{Minton Mu}          %作者
+%\usepackage{ctex} %处理中文引入的包
+\newcommand\degree{^\circ}
+
+\title{My First TexFile(我的第一个LaTeX文档)}   %标题
+\author{Minton Mu 牟明}          %作者
 \date{\today}               %时间
 % 正文区(文稿区)
 % 一个tex文件有且只有一个document环境
 \begin{document}
 \maketitle
  Hello World!
+
+ 你好 世界
+
 % $$ 代表行内公式 ,$$$$是行外公式
  Let $f(x)$ be defined by the formula $f(x)=3x^2+x-1$.
 
  Let $f(x)$ be defined by the formula $$f(x)=3x^2+x-1$$.
+ \begin{equation}
+     AB^2 = BC^2 + AC^2.
+ \end{equation}
 \end{document}
