@@ -1,7 +1,7 @@
 \documentclass{article}
 
 \usepackage{ctex}
-
+\newcommand{\myfont}{\textrm{\textsf{\textbf{My command}}}}
 
 \begin{document}
 % 字体族设置（罗马字体、无衬线字体、打字机字体）
@@ -27,4 +27,24 @@
     }
 
     {\mdseries Medium Series} {\bfseries Medium Series}
+
+    %中文字体
+    {\songti 宋体} \quad {\heiti 黑体} \quad {\fangsong 仿宋} \quad {\kaishu 楷书}
+
+    %字体大小
+    {\tiny HELLO}\\
+    {\scriptsize HELLO}\\
+    {\footnotesize HELLO}\\
+    {\small HELLO}\\
+    {\normalsize HELLO}\\
+    {\large HELLO}\\
+    {\Large HELLO}\\
+    {\LARGE HELLO}\\
+    {\huge HELLO}\\
+    {\Huge HELLO}\\
+
+    %中文字体字号设置
+    \zihao{-0} 你好！
+    
+    \myfont
 \end{document}
